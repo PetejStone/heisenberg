@@ -1,0 +1,64 @@
+
+.nav {
+  font-family: $helvetica-font-stack;
+  font-weight: $font-weight--thin;
+  letter-spacing: 0px;
+  & li a {
+    color: $white;
+  }
+
+}
+
+header {
+  @include flexy(flex, column, null, center);
+  color: rgba(255,255,255,.7);
+  & h1 {
+    font-family: 'Roboto Condensed','Cinzel Decorative', 'Julius Sans One','Alegreya Sans SC',
+    'Open Sans', $helvetica-font-stack;
+    font-weight: $font-weight--thin;
+
+  }
+  & p {
+    font-family: 'Roboto Condensed','Cinzel Decorative', 'Julius Sans One','Alegreya Sans SC',
+    'Open Sans', $helvetica-font-stack;
+    font-size: 10px;
+  }
+}
+
+.page-heading {
+  font-family:  'Roboto Condensed','Cinzel Decorative', 'Julius Sans One','Alegreya Sans SC',
+  'Open Sans', $helvetica-font-stack;
+  color: $white;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.home-text {
+  color: $white;
+  text-align: center;
+  font-family: 'Roboto Condensed','Cinzel Decorative', 'Julius Sans One','Alegreya Sans SC',
+  'Open Sans', $helvetica-font-stack;
+  & p {
+    font-weight: 200;
+    font-family: $helvetica-font-stack;
+    letter-spacing: .7px;
+  }
+}
+
+footer a {
+  font-family:  $helvetica-font-stack;
+  width: fit-content;
+  font-size: 8px;
+  font-weight: $font-weight--thin;
+  color: $white;
+  text-align: center;
+  opacity: .7;
+  margin: 0 auto;
+  padding: .5px;
+}
+
+p {
+  color: $white;
+  text-align: center;
+
+}
