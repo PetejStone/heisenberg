@@ -69,6 +69,7 @@ nav {
   transform: translateX(0%);
   max-width: 1200px;
   z-index: 500;
+  -webkit-overflow-scrolling: touch;
 
 }
 
@@ -158,5 +159,3 @@ nav li:hover {
 	}
 
   //-------
-
-  

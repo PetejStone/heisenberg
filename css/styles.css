@@ -881,7 +881,8 @@ nav {
 .animate-on {
   transform: translateX(0%);
   max-width: 1200px;
-  z-index: 500; }
+  z-index: 500;
+  -webkit-overflow-scrolling: touch; }
 
 footer > a:hover {
   transform: scale(1.03);
