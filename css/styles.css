@@ -913,7 +913,7 @@ div.nav {
   transition: all linear 0.3s;
   animation: smokeoff 3s;
   transition: all 3s;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .animate-on ul li {
   opacity: 1;
